@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-gradient-to-r from-sky-500 to-indigo-500;
+	}
+}
+
+@layer components {
+	.logoTilt {
+		background: rgb(2, 0, 36);
+		background: linear-gradient(
+			90deg,
+			rgba(2, 0, 36, 1) 0%,
+			rgba(136, 86, 14, 1) 54%,
+			rgba(114, 120, 14, 1) 100%
+		);
+	}
+}
