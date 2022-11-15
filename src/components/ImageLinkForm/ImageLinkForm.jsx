@@ -8,7 +8,7 @@ const ImageLinkForm = () => {
 			</p>
 			<div className="mx-auto flex max-w-[600px]">
 				<input type="text" className="grow rounded-xl p-2 text-neutral-900" />
-				<button className="ml-4 rounded-xl border border-[2px] border-indigo-900 bg-indigo-400 p-2 px-4 text-neutral-900">
+				<button className="ml-4 rounded-xl border border-[2px] border-indigo-900 bg-indigo-400 p-2 px-4 text-neutral-900 duration-300 ease-in-out hover:scale-110">
 					Detect
 				</button>
 			</div>
