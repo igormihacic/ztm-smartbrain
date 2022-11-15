@@ -2,7 +2,6 @@ import { Component } from "react";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import Logo from "./components/Logo/Logo";
 import Navigation from "./components/Navigation/Navigation";
-import Particles from "./components/Particles/Particles";
 import Rank from "./components/Rank/Rank";
 
 class App extends Component {
@@ -24,7 +23,6 @@ class App extends Component {
 							Made with love and passion by ME ;)
 						</p>
 					</footer>
-					<Particles />
 				</div>
 			</>
 		);
