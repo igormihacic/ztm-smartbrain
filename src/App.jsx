@@ -7,11 +7,20 @@ class App extends Component {
 	render() {
 		return (
 			<>
-				<div className="container mx-4 grid">
-					<Logo />
-					<Navigation />
-					<ImageLinkForm />
-					{/* <FaceRecognition /> */}
+				<div className="imGridRows container mx-auto grid h-screen grid-cols-1 gap-y-4 px-6 text-white">
+					<header className="flex flex-row py-6">
+						<Logo />
+						<Navigation />
+					</header>
+					<main>
+						<ImageLinkForm />
+						{/* <FaceRecognition /> */}
+					</main>
+					<footer className="p-4">
+						<p className="text-center text-xs">
+							Made with love and passion by ME ;)
+						</p>
+					</footer>
 				</div>
 			</>
 		);
